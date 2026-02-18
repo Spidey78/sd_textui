@@ -20,7 +20,7 @@ change all textui.lua code with this code
 
 -- ox_lib TextUI → sd_textui compatibility layer
 
-''' local isOpen = false
+ local isOpen = false
 local currentText = nil
 
 -- convert ox_lib positions → sd_textui positions
@@ -38,10 +38,8 @@ end
 function lib.showTextUI(text, options)
     if currentText == text then return end
     options = options or {}
-
     currentText = text
     isOpen = true
-
     exports['sd_textui']:ShowTextUI(text, {
         position = convertPosition(options.position)
     })
@@ -57,3 +55,4 @@ end
 function lib.isTextUIOpen()
     return isOpen, currentText
 end '''
+
