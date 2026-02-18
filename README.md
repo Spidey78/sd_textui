@@ -22,7 +22,7 @@ FRAMEWORK OX_LIB
 
 for ox_lib change > ox_lib > resource > interface > client..
 change all textui.lua code with this code
-
+'''
 -- ox_lib TextUI → sd_textui compatibility layer
 
 local isOpen = false
@@ -59,4 +59,4 @@ end
 ---@return boolean, string | nil
 function lib.isTextUIOpen()
     return isOpen, currentText
-end
+end'''
