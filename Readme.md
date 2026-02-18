@@ -20,7 +20,7 @@ change all textui.lua code with this code
 
 -- ox_lib TextUI → sd_textui compatibility layer
 
-local isOpen = false
+''' local isOpen = false
 local currentText = nil
 
 -- convert ox_lib positions → sd_textui positions
@@ -56,4 +56,4 @@ end
 ---@return boolean, string | nil
 function lib.isTextUIOpen()
     return isOpen, currentText
-end
+end '''
