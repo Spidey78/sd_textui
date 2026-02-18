@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+#textui {
+    position: absolute;
+    display: none;
+    align-items: center;
+    gap: 12px;
+
+    padding: 10px 18px;
+    border-radius: 14px;
+
+    background: rgba(5, 5, 5, 0.9);
+    box-shadow:
+        0 0 10px rgba(120, 255, 0, 0.35),
+        0 0 25px rgba(120, 255, 0, 0.15);
+
+    color: #9bff00;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#keybox {
+    min-width: 28px;
+    height: 28px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #9bff00;
+    color: #000;
+
+    border-radius: 6px;
+    font-weight: 700;
+
+    box-shadow: 0 0 8px rgba(120, 255, 0, 0.8);
+}
+
+#label {
+    white-space: nowrap;
+}
